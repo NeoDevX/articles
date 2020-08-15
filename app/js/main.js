@@ -1,3 +1,0 @@
-$(function() {
-	$('p').text('Menu');
-});
