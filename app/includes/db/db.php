@@ -6,7 +6,7 @@
 		$config['db']['server'],
 		$config['db']['username'],
 		$config['db']['password'],
-		$config['db']['name']
+		$config['db']['namer']
 	);
 
 	if (!$connection)
