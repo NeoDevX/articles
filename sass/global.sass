@@ -1,1 +1,26 @@
 @import './vars.sass'
+
+body
+	font-family: 'Montserrat', sans-serif
+	background: url(../src/images/body.png) center no-repeat fixed
+  background-size: cover
+
+
+.carousel-item
+	img
+		max-height: 550px
+		height: 100%
+h2 
+	margin-bottom: 30px
+	font-family: 'Montserrat', sans-serif
+	font-weight: 600
+a
+	color: $a
+	&:hover
+		color: $hover
+
+@mixin nav-link
+	margin-left: 20px
+	text-transform: uppercase
+	font-weight: 600
+	font-size: 16px 
