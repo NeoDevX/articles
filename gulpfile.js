@@ -43,4 +43,4 @@ gulp.task('browserSync', function(){
 	})
 });
 
-gulp.task('default', gulp.parallel('sass', 'js', 'jsLibs', 'php', 'watch', 'browserSync'))
+gulp.task('default', gulp.parallel('sass', 'js', 'jsLibs', 'php', 'watch', 'browserSync'));

@@ -1,12 +1,12 @@
 <?php 
 	
-	require_once 'config.php'
+	require_once 'config.php';
 
-	$connection = array(
+	$connection = mysqli_connect(
 		$config['db']['server'],
 		$config['db']['username'],
 		$config['db']['password'],
-		$config['db']['namer']
+		$config['db']['name']
 	);
 
 	if (!$connection)

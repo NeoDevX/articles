@@ -1,16 +1,16 @@
 <?php 
 
 	$config = array(
-		'title' => 'My_Blog',
+		'title' => 'IT_Blog',
 		'vk_url' => 'https://connect.vk.com/account/#/personal',
 		'db' => array(
 			'server' => 'localhost',
 			'username' => 'root',
 			'password' => 'root',
-			'name' => 'myblog_db'
+			'name' => 'it_blog_db'
 		)
 	);
 
-	include_once '../db/db.php';
+	include_once 'db.php';
 
 ?>
