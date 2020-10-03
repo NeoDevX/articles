@@ -23,10 +23,10 @@
 			        <a class="nav-link" href="../../../../articlesAndAboutMe/app/index.php">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="./includes/pages/article.php">About_Me</a>
+			        <a class="nav-link" href="../../../../articlesAndAboutMe/app/includes/pages/article.php">About_me</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">My_GitHub</a>
+			        <a class="nav-link" href="https://github.com/SabyrbekovJanbolot">My_GitHub</a>
 			      </li>
 			      <li class="nav-menu dropdown">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

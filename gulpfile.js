@@ -39,7 +39,7 @@ gulp.task('watch', function(){
 
 gulp.task('browserSync', function(){
 	browserSync.init({
-		proxy: 'petProject/articlesAndAboutMe/app'
+		proxy: "petProject/articlesAndAboutMe/app/"
 	})
 });
 

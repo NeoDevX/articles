@@ -10,6 +10,8 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
   />
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<script src="./js/jsLibs/jsLibs.min.js"></script>
+	<script src="./js/main.js"></script>
 	<script src="./js/jsLibs/wow.min.js"></script>
 	<script>
 		new WOW().init();
@@ -194,10 +196,8 @@
 		<?php include_once './includes/sections/footer.php' ?>		
 		<!-- Footer -->
 
-
 	</div>
 
-	<script src="./js/jsLibs/jsLibs.min.js"></script>
-	<script src="./js/main.js"></script>
+
 </body>
 </html>
