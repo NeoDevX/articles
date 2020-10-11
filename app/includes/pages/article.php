@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="../../css/style.css">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@800&display=swap" rel="stylesheet">
 	<script src="../../js/jsLibs/jsLibs.min.js"></script>
-	<script src="../../js/main.js"></script>
 </head>
 <body>
 	<?php  
@@ -29,6 +28,10 @@
 		</div>
 
 	</div>
+
+	<script src="../../js/main.js"></script>
+
+
 
 </body>
 </html>

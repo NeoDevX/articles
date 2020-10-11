@@ -1,20 +1,18 @@
-// $(function() {
+$(function() {
 
-	// $('div').on("click", "a", function(event) {
-	// 	event.preventDefault();
-	//   $("div a").removeClass("active");
-	//   $(event.target).addClass("active");
-	// });
+	let url = window.location.href;
+	if (url == "http://localhost:3000/articlesAndAboutMe/app/index.php")
+	{
+		$('ul li a.about').removeClass('active');
+		$('ul li a.home').addClass('active');
+	}
+	else
+	{
+		$('ul li a.home').removeClass('active');
+		$('ul li a.about').addClass('active');
+	}
 
-// });
-
-
-
-
-
-
-
-
+});
 
 
 // window.addEventListener('load', function(){
