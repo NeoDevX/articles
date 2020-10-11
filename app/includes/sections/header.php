@@ -20,10 +20,10 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item">
-			        <a class="nav-link home active" href="../../../../articlesAndAboutMe/app/index.php">Home</a>
+			        <a class="nav-link home" href="../../../../articlesAndAboutMe/app/index.php">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link about" href="../../../../articlesAndAboutMe/app/includes/pages/article.php">About_me</a>
+			        <a class="nav-link about" href="../../../../articlesAndAboutMe/app/includes/pages/about.php">About_me</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="https://github.com/SabyrbekovJanbolot">My_GitHub</a>

@@ -1,12 +1,14 @@
 $(function() {
-
+	$('ul li a.home').addClass('active');
 	let url = window.location.href;
-	if (url == "http://localhost:3000/articlesAndAboutMe/app/index.php")
+	if (url == "http://localhost:3000/articlesAndAboutMe/app/index.php" ||
+			url == "http://petproject/articlesAndAboutMe/app/index.php")
 	{
 		$('ul li a.about').removeClass('active');
 		$('ul li a.home').addClass('active');
 	}
-	else
+	else if (url == "http://localhost:3000/articlesAndAboutMe/app/includes/pages/about.php" ||
+					 url == "http://petproject/articlesAndAboutMe/app/includes/pages/about.php")
 	{
 		$('ul li a.home').removeClass('active');
 		$('ul li a.about').addClass('active');
