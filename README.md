@@ -1,2 +1,2 @@
 # SomeCode
-This Web-Application, which contains my articles and information about me
+This Web-Application, which contains my articles.
